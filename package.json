@@ -1,0 +1,41 @@
+{
+	"name": "ol-mapping-library",
+	"version": "1.0.1",
+	"description": "Mapping library",
+	"keywords": [
+		"map",
+		"mapping"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Damastier89/ol-custom-library.git"
+	},
+	"author": "Damastier",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Damastier89/ol-custom-library/issues"
+	},
+	"homepage": "https://github.com/Damastier89/ol-custom-library#readme",
+	"type": "module",
+	"main": "index.js",
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	],
+	"dependencies": {
+		"color-rgba": "^3.0.0",
+		"color-space": "^2.0.1",
+		"earcut": "^2.2.3",
+		"geotiff": "^2.0.7",
+		"pbf": "3.2.1",
+		"rbush": "^3.0.1"
+	},
+	"sideEffects": [
+		"proj.js",
+		"ol.css"
+	]
+}
